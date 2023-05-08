@@ -1,5 +1,5 @@
 import React from 'react'
-import Dummy from '../src/assests/index'
+
 
 const page = () => {
   return (
@@ -12,8 +12,6 @@ const page = () => {
     //   </Head>
     <>
       <p>Hello Dear</p>
-      <Dummy/>
-      
       <p className='text-red-700' >Hello! Fellow Developer</p>
     </>
   )

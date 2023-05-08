@@ -1,9 +1,11 @@
+
 import React from 'react'
 
 const Footer = () => {
   return (
     <div>
-      Footer
+      
+      <p className='text-purple-800'>Footer</p>
     </div>
   )
 }
