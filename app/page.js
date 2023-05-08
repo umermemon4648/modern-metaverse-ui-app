@@ -1,5 +1,6 @@
 import React from 'react'
-import { About, Explore, Feedback, GetStarted, Hero, Insights, WhatsNew, World } from '../src/segments'
+import { About, Explore, FeedBack, GetStarted, Hero, Insights, WhatsNew, World } from '../src/segments'
+
 
 const page = () => {
   return (
@@ -10,23 +11,35 @@ const page = () => {
     //     <meta name="viewport" content="width=device-width, initial-scale=1" />
     //     <link rel="icon" href="/favicon.ico" />
     //   </Head>
+    
+    
     <>
-
-    <Hero/>
+    {/* <Hero/>
     <About/>
     <Explore/>
     <GetStarted/>
     <WhatsNew/>
     <World/>
     <Insights/>
-    <Feedback/>
+    <Feedback/> */}
 
 
-      {/* <p>Hello Dear</p>
-      <p className='text-red-700' >Hello! Fellow Developer</p> */}
+      <p>Hello Dear</p>
+      <p className='text-red-700' >Hello! Fellow Developer</p>
     
     
-    
+    <p>Checkinggggggg</p>
+
+        <Hero/>
+        <About/>
+        <Explore/>
+        <GetStarted/>
+        <WhatsNew/>
+        <World/>
+        <Insights/>
+        <FeedBack/>
+
+
     </>
   )
 }
