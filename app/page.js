@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { About, Explore, Feedback, GetStarted, Hero, Insights, WhatsNew, World } from '../src/segments'
 
 const page = () => {
   return (
@@ -11,8 +11,22 @@ const page = () => {
     //     <link rel="icon" href="/favicon.ico" />
     //   </Head>
     <>
-      <p>Hello Dear</p>
-      <p className='text-red-700' >Hello! Fellow Developer</p>
+
+    <Hero/>
+    <About/>
+    <Explore/>
+    <GetStarted/>
+    <WhatsNew/>
+    <World/>
+    <Insights/>
+    <Feedback/>
+
+
+      {/* <p>Hello Dear</p>
+      <p className='text-red-700' >Hello! Fellow Developer</p> */}
+    
+    
+    
     </>
   )
 }
