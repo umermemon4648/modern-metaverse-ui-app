@@ -14,21 +14,7 @@ const page = () => {
     
     
     <>
-    {/* <Hero/>
-    <About/>
-    <Explore/>
-    <GetStarted/>
-    <WhatsNew/>
-    <World/>
-    <Insights/>
-    <Feedback/> */}
-
-
-      <p>Hello Dear</p>
-      <p className='text-red-700' >Hello! Fellow Developer</p>
-    
-    
-    <p>Checkinggggggg</p>
+   
 
         <Hero/>
         <About/>
@@ -38,7 +24,6 @@ const page = () => {
         <World/>
         <Insights/>
         <FeedBack/>
-
 
     </>
   )
