@@ -6,6 +6,7 @@ import styles from '../styles/index'
 import {slideIn, staggerContainer, textVariant} from '../utils/motion'
 
 import coverPNG from '../../public/cover.png'
+import stampPNG from '../../public/stamp.png'
 
 const Hero = () => {
   return (
@@ -40,9 +41,15 @@ const Hero = () => {
       variants={slideIn('right', 'tween', 0.2, 1)}
       className='relative w-full md:mt-[20px] -mt-[12px] '
       >
-        <div className="absolute w-full h-[300px] hero-gradient rounded-tl-[150px] z-[0] -top-[30px]">
+        <div className="absolute w-full h-[300px] hero-gradient rounded-tl-[150px] z-[0] -top-[30px]"/>
           <Image src={coverPNG} alt='coverPNG' className='w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[150px] z-10 relative'/>
-        </div>
+
+          <a href="#explore">
+            <div className="w-full flex justify-end relative z-10 sm:mt-[70px] -mt-[50px] pr-[40px]">
+              <Image src={stampPNG} alt='stampPNG' className='w-[100px] sm:w-[155px] h-[100px] sm:h-[155px] object-contain'/>
+            </div>
+          </a>
+
       </motion.div>
 
     </motion.div>
